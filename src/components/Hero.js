@@ -15,7 +15,7 @@ function Hero() {
                          text-gray-900
                          font-sans
                          text-center
-                         ml-4 sm:ml-3
+                         ml-4 sm:ml-2
                          mt-48 
                          absolute
                          font-extrabold
