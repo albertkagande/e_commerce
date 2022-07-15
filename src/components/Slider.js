@@ -24,7 +24,7 @@ import { Pagination, Navigation } from "swiper";
 function Slider() {
   return (
     <>
-     <h3 className="bg-gray-900 text-5xl text-yellow-400 pb-1 pt-12">New stock</h3>
+     <h3 className="bg-gray-900 text-5xl sm:text-3xl text-yellow-400 pb-1 pt-12">New stock</h3>
     <Swiper
         slidesPerView={3}
         spaceBetween={30}
@@ -34,9 +34,9 @@ function Slider() {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        navigation={false}
         modules={[Navigation]}
-        className="mySwiper xl:h-96 lg:h-96 sm:h-24 md:h-48 bg-yellow-400 shadow" >
+        className="mySwiper xl:h-96 lg:h-96 sm:h-32 md:h-48 bg-yellow-400 shadow" >
     
         <SwiperSlide className="text-teal-900 h-80 cursor-pointer hover:animate-pulse">
         <img src={one} alt=""/>
