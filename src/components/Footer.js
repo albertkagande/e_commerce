@@ -17,7 +17,7 @@ function Footer() {
                 <div> <span className="font-bold"></span>Phone: +265996475170 </div>
                 <div> <span className="font-bold"></span>Email: kagandea@outlook.com </div>
           </div>
-          <div className="mb-5 sm:flex sm:flex-col sm:pl-20 sm:h-12 w-full">
+          <div className="mb-5 sm:hidden w-full">
               <a href="https://github.com/albertkagande"><img src={github} className=" pt-1 w-8 ml-8 inline-block mr-2 hover:animate-bounce" />Find me on Github</a>
               <a href="https://www.linkedin.com/in/albert-kagande-2117bb216"><img src={linkedin} className="pt-1 w-8 my-2 inline-block ml-8 mr-2 hover:animate-bounce" />Find me on Linkedin</a>
           </div>
