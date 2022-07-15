@@ -10,7 +10,7 @@ function Navbar() {
 
     <nav className="flex items-center justify-between w-full h-18 shadow">
 
-        <span className=" my-0 mx-5 sm:mx-3">
+        <span className=" my-0 mx-5 sm:mx-2">
       <motion.img animate={{ x:20 }} transition={{ duration: 20, type: "spring", stiffness: 900 }} src={logo} className="w-32 cursor-pointer hover:animate-bounce"/>
         </span>
         <ul className="float-right inline-flex">
