@@ -24,12 +24,12 @@ function Navbar() {
                            w-28 md:w-20 lg:w-28 lg:h-10 
                            text-center hover:animate-bounce">Sign In</li>
 
-            <li className="text-xl p-2 mx-4 
+            <li className="text-xl p-2 mx-4 sm:hidden
                           text-cyan-900 
                           hover:text-cyan-900
                           cursor-pointer hover:scale-90 ">Register</li>
 
-            <li className="text-xl p-2 mx-4 
+            <li className="text-xl p-2 mx-4 sm:hidden
                           text-cyan-900 
                           hover:text-cyan-900
                           cursor-pointer hover:scale-90 ">Checkout</li>
