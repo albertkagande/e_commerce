@@ -24,7 +24,7 @@ function Product() {
     <div className="w-full grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 pl-12 pr-12 gap-4 py-8 mx-0 my-0 bg-gray-900  ">
       {data.map((product) => ( 
         <div key={product.id} className="">
-          <div><img src={product.image} className="h-96 w-96 rounded-b-full hover:cursor-pointer hover:animate-bounce pb-4 pt-12 truncate"/></div>
+          <div><img src={product.image} className="h-96 sm:h-80 w-96 rounded-b-full hover:cursor-pointer hover:animate-bounce pb-4 pt-12 truncate"/></div>
           <div>
           <h6 className="text-white text-xl ml-0 pb-4">{`${product.category}`}</h6>
             <h6 className="text-white text-xl ml-0 pb-4">{`${product.price} USD`}</h6>
