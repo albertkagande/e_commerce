@@ -20,7 +20,7 @@ function Product() {
 
   return (
     <div>
-    <h3 className="bg-gray-900 h-full text-5xl text-yellow-400 pb-0 pt-0">All products in stock</h3>
+    <h3 className="bg-gray-900 h-full text-5xl sm:text-3xl text-yellow-400 pb-0 pt-0">All products in stock</h3>
     <div className="w-full grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 pl-12 pr-12 gap-4 py-8 mx-0 my-0 bg-gray-900  ">
       {data.map((product) => ( 
         <div key={product.id} className="">
