@@ -38,39 +38,39 @@ function Slider() {
         modules={[Navigation]}
         className="mySwiper xl:h-96 lg:h-96 sm:h-32 md:h-48 bg-yellow-400 shadow" >
     
-        <SwiperSlide className="text-teal-900 h-80 cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 cursor-pointer hover:animate-pulse">
         <img src={one} alt=""/>
         </SwiperSlide>
 
-        <SwiperSlide className="text-teal-900 h-80 hover:cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 hover:cursor-pointer hover:animate-pulse">
         <img src={two} alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="text-teal-900 h-80 hover:cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 hover:cursor-pointer hover:animate-pulse">
         <img src={three} alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="text-teal-900 h-80 hover:cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 hover:cursor-pointer hover:animate-pulse">
         <img src={four} alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="text-teal-900 h-80 hover:cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 hover:cursor-pointer hover:animate-pulse">
         <img src={five} alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="text-teal-900 h-80 hover:cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 hover:cursor-pointer hover:animate-pulse">
         <img src={six} alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="text-teal-900 h-80 hover:cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 hover:cursor-pointer hover:animate-pulse">
         <img src={seven} alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="text-teal-900 h-80 hover:cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 hover:cursor-pointer hover:animate-pulse">
         <img src={eight} alt="" />
         </SwiperSlide>
 
-        <SwiperSlide className="text-teal-900 h-80 hover:cursor-pointer hover:animate-pulse">
+        <SwiperSlide className="text-teal-900 h-96 hover:cursor-pointer hover:animate-pulse">
             <img src={nine} alt="" />
         </SwiperSlide>
 
