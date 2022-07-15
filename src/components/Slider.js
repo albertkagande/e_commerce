@@ -36,7 +36,7 @@ function Slider() {
         }}
         navigation={false}
         modules={[Navigation]}
-        className="mySwiper xl:h-96 lg:h-96 sm:h-32 md:h-48 bg-yellow-400 shadow" >
+        className="mySwiper xl:h-96 lg:h-96 sm:h-16 md:h-48 bg-yellow-400 shadow" >
     
         <SwiperSlide className="text-teal-900 h-96 cursor-pointer hover:animate-pulse">
         <img src={one} alt=""/>
